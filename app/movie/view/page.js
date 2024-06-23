@@ -53,7 +53,7 @@ const SubmittedPost = ({ data = movieSample }) => {
                 {parse(updatedDescription)}
                 {thumbNailUrl && (
                     <div className="mt-4 flex justify-center">
-                        <img   className="max-w-xs" src={`${process.env.NEXT_PUBLIC_CLOUDFRONT_URL}/${thumbNailUrl}`} alt="Thumbnail" />
+                        <img className="max-w-xs" src={`${process.env.NEXT_PUBLIC_CLOUDFRONT_URL}/${thumbNailUrl}`} alt="Thumbnail"/>
                     </div>
                 )}
             </div>
